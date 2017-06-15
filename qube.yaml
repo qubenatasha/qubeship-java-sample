@@ -1,0 +1,32 @@
+id: 40d6df70-3a3e-4aa5-9924-09bbe4542cba
+version: v2
+name: qubeship-java-sample
+apptype: api
+language: java
+containerName: qubeship-java-sample
+toolchain:
+  id: 59430ad96a75fd0020505391
+  name: Qubeship-Java-Toolchain
+opinion:
+  id: 59430a4f65f7a0000b13602a
+  name: Qubeship default opinion
+endpoint:
+  id: 59430e5a998984000b7b594b
+  name: Qubeship Sandbox Cluster
+  type: target
+variables:
+  - name: APP_VERSION
+    value: v0.1
+build:
+  compile:
+    publish:
+     - target/
+bake:
+  skip: false
+test:
+  skip: true
+deploy_to_qa:
+  skip: true
+deploy_to_prod:
+  skip: false
+
