@@ -1,17 +1,17 @@
-id: 27a7c8ac-9712-4d93-a0eb-6a1be9a5a87b
+id: 40d6df70-3a3e-4aa5-9924-09bbe4542cba
 version: v2
-name: HyunjiTester0503
+name: qubeship-java-sample
 apptype: api
 language: java
-containerName: hyunjitester0503
+containerName: qubeship-java-sample
 toolchain:
-  id: 5908cf49d1a47f002010b95d
+  id: 59430ad96a75fd0020505391
   name: Qubeship-Java-Toolchain
 opinion:
-  id: 5908cf7dacfc9a000b226a5f
+  id: 59430a4f65f7a0000b13602a
   name: Qubeship default opinion
 endpoint:
-  id: 5908cf49168303000bee528c
+  id: 59430e5a998984000b7b594b
   name: Qubeship Sandbox Cluster
   type: target
 variables:
